@@ -277,3 +277,13 @@ header .container .header-content .buttons{
         justify-content: center;
     }
 }
+@media screen and (max-width:767px) {
+    header .container .header-content h1{
+        font-size: 28px;
+    }
+    header .container .header-content .buttons{
+        flex-direction: column;
+        column-gap: 0px;
+        row-gap: 20px;
+    }
+}
